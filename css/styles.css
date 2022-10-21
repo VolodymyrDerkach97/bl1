@@ -1,0 +1,134 @@
+:root {
+    --main-color: #28a745;
+    --secondary-color: #0284d0;
+    --third-color: #f4f4f4;
+    --main-text-color: #333;
+    --secondary-text-color: #fff;
+    --main-font: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+    font-size: 18px;
+    position: relative;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1360px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    line-height: 1.21;
+    color: var(--secondary-text-color);
+}
+
+.logo-icon {
+    margin-right: 10px;
+}
+
+.logo-first-word {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu li {
+    margin-right: 40px;
+}
+
+.header-menu li:last-child {
+    margin-right: 0;
+}
+
+.header-menu a {
+    display: block;
+    color: var(--secondary-text-color);
+    line-height: 1.56;
+    padding: 20px 0;
+}
+
+.header-menu a:hover,
+.header-menu a:focus {
+    text-decoration: underline;
+}
+
+/* banner */
+.banner {
+    padding: 280px 0;
+    background-color: black;
+}
+
+
+
+/* Footer V.Derkach */
+
+.address-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.net-list {
+    display: flex;
+}
