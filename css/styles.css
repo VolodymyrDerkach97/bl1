@@ -160,7 +160,7 @@ ul {
 }
 
 .copyright {
-    font-family: "Open Sans",sans-serif;
+    font-family: var(--main-font);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
